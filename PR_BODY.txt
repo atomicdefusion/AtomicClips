@@ -1,0 +1,6 @@
+fix(phase0): robustness for whisper install, ffmpeg subtitle paths, and tests
+
+- Use openai-whisper in requirements to avoid ambiguity with pip package `whisper`.
+- Make atomicclips/burn.py robust to SRT filenames containing spaces, single quotes, and other special characters by copying the SRT to a temporary safe path before invoking ffmpeg.
+- Update README to recommend openai-whisper and document the --device CLI flag.
+- Add lightweight pytest tests for transcribe_to_srt and burn_subtitles.
