@@ -1,0 +1,33 @@
+# AtomicClips Phase 0
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtualenv
+venv/
+.env/
+.env
+env/
+ENV/
+
+# Mac
+.DS_Store
+
+# Colab/outputs
+outputs/
+*.mp4
+*.mkv
+*.mov
+*.srt
+
+# Secrets
+.env
+*.key
+*.pem
+
+# IDEs
+.vscode/
+.idea/
